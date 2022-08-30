@@ -1,0 +1,165 @@
+body {
+  font-family: 'monserrat';
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  font-weight: bolder;
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Montserrat-bolder', sans-serif;
+}
+
+.big-title{
+  font-size: 3.5rem;
+  line-height: 75px;
+  font-weight: bolder;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-lights';
+}
+
+/* download button */
+.download-button {
+  margin: 5% 18px 0;
+}
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+
+}
+
+.features-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.textimonial-text{
+  font-size: 2.5rem;
+  line-height: 75px;
+  font-weight: bolder;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.card-title{
+  font-size: 2.5rem;
+  line-height: 75px;
+  font-weight: bolder;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+/* call to action */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 25% 7%;
+}
+
+.cta-title{
+  font-family: 'monserrat';
+  font-size: 3rem;
+  line-height: 75px;
+  font-weight: bolder;
+  color: #fff;
+  padding: 2% 0%;
+}
+/* footer */
+
+#footer{
+  padding: 6% 5% 4%;
+}
+.cr{
+  padding: 20px 50px 5px;
+}
+
+.footer-brands{
+  padding: 1%;
+}
